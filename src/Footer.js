@@ -4,16 +4,9 @@ const Footer = ({ length }) => {
   const year = new Date();
   return (
     <>
-      <div className="footer">
-        CopyRight &copy; {year.getFullYear()}
-        <h2>{length}</h2>
-      </div>
-      ;
+      <div className="footer">CopyRight &copy; {year.getFullYear()}</div>;
     </>
   );
-};
-Footer.defaultProps = {
-  length: 0,
 };
 
 export default Footer;

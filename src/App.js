@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="container">
-      <Header title="Hello" />
+      <Header title="TodoList" />
       <Content
         items={items}
         handleCheck={handleCheck}
