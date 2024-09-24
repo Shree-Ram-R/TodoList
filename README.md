@@ -14,7 +14,7 @@ To get this app running locally, you'll need to have [Node.js](https://nodejs.or
 In the project directory, you can run:
 
 ```bash
-yarn && yarn start
+npm && npm start
 ```
 
 More information about the available commands can be found in the [Contributing](CONTRIBUTING.md) guide.
