@@ -4,7 +4,10 @@ const Footer = ({ length }) => {
   const year = new Date();
   return (
     <>
-      <div className="footer">CopyRight &copy; {year.getFullYear()}</div>;
+      <div className="footer">
+        {year.getDate()}/{year.getMonth()}/{year.getFullYear()}
+      </div>
+      ;
     </>
   );
 };

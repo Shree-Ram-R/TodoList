@@ -11,7 +11,7 @@ export const Itemlist = ({ item, handleCheck, deleteItem }) => {
       <label
         style={
           item.Checked
-            ? { textDecoration: "line-through", color: "cyan" }
+            ? { textDecoration: "line-through", color: "black" }
             : null
         }
         onDoubleClick={() => handleCheck(item.id)}

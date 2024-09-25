@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = ({ title }) => {
-  return <div className="header">{title}</div>;
+  return <header>{title}</header>;
 };
 Header.defaultProps = {
   title: "TODO LIST",
