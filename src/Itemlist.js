@@ -1,7 +1,6 @@
 import React from "react";
 import { FaTrashAlt } from "react-icons/fa";
 export const Itemlist = ({ item, handleCheck, deleteItem }) => {
-  let color = "line-through";
   return (
     <li className="item">
       <input
