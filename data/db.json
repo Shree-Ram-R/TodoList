@@ -7,28 +7,8 @@
     },
     {
       "id": "2",
-      "Checked": true,
-      "item": "React"
-    },
-    {
-      "id": "3",
-      "Checked": true,
-      "item": "Project"
-    },
-    {
-      "id": "4",
       "Checked": false,
       "item": "practise"
-    },
-    {
-      "id": "5",
-      "Checked": false,
-      "item": "cooding"
-    },
-    {
-      "id": "6",
-      "Checked": false,
-      "item": "LeetCode"
     }
   ]
 }

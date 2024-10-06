@@ -74,9 +74,15 @@ function App() {
     const result = await apiRequest(reqURL, updateOption);
     if (result) setFetchError(result);
   };
-  const deleteItem = (id) => {
+  const deleteItem = async (id) => {
     const s = items.filter((item) => item.id !== id);
     setItem(s);
+    const reqURL = `${API_URL}/${id}`;
+    const deleteOption = {
+      method: "Delete",
+    };
+    const result = await apiRequest(reqURL, deleteOption);
+    if (result) setFetchError(result);
   };
   const handleNewItem = (e) => {
     e.preventDefault();
